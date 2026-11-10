@@ -1,5 +1,3 @@
 # Prancha responsiva — Multibrands SJC
 
-Abra `../prancha.html` em navegador com um servidor local ativo. A prancha exibe a interface nos formatos notebook, tablet e celular, cada um em um estado de navegação diferente.
-
-Imagem PNG de apresentação a ser incluída após captura local.
+`multibrands-sjc-prancha.png` apresenta o conceito em três formatos: celular, tablet e notebook. Os dados do catálogo mostrados são ilustrativos e fictícios.

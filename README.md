@@ -1,17 +1,12 @@
 # Multibrands SJC — vitrine demonstrativa
 
-Protótipo estático, mobile first, com 18 referências únicas, fotos ilustrativas locais, busca, filtros, ordenação, detalhe de produto, escolha de tamanho demonstrativo e sacola local. O botão de consulta prepara uma mensagem no WhatsApp; não há checkout, reserva ou integração de estoque.
+Protótipo estático, mobile first, com 18 referências únicas, imagens ilustrativas locais, filtros por categoria, busca, ordenação, detalhes por produto, tamanhos demonstrativos e sacola local. O botão de consulta abre o WhatsApp com uma mensagem preparada; não há checkout, reserva nem integração de estoque.
 
-## Abrir localmente
-Abra `index.html` no navegador ou execute `python -m http.server 8000` nesta pasta e acesse `http://localhost:8000`.
-
-## Direções visuais
-- `?direcao=editorial`
-- `?direcao=street`
-- `?direcao=boutique`
-
-## Conteúdo demonstrativo
-Produtos, imagens, preços, tamanhos, cores, composição e cuidados são referências fictícias. Não representam estoque ou oferta da loja. Leia `BRIEF_DO_PROJETO.md` e `ASSET_CREDITS.md`.
+## Abrir
+Acesse `index.html` ou abra pelo GitHub Pages publicado no final desta documentação. Parâmetros `?direcao=editorial`, `?direcao=street` e `?direcao=boutique` selecionam visual.
 
 ## Prancha
-Abra `prancha.html` pelo servidor local para ver a apresentação com notebook, tablet e celular.
+`arte/multibrands-sjc-prancha.png` — apresentação em celular, tablet e notebook.
+
+## Conteúdo demonstrativo
+Produtos, preços, tamanhos, cores, composições, cuidados e imagens são fictícios/ilustrativos e não representam estoque nem oferta da loja. Confirmar todas as informações e trocar fotos pelas da loja, com autorização, antes de uso comercial.
