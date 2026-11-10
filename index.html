@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1e9" />
+    <meta name="description" content="Vitrine demonstrativa da Multibrands São José dos Campos. Peças, valores e tamanhos deste protótipo são ilustrativos; consulte a loja para disponibilidade atual." />
+    <title>Multibrands — vitrine demonstrativa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body data-direction="editorial">
+    <a class="skip-link" href="#catalogo">Pular para o catálogo</a>
+    <div class="demo-ribbon"><span class="status-dot" aria-hidden="true"></span> PRÉVIA DEMONSTRATIVA <span class="ribbon-separator">·</span> peças, preços e tamanhos ilustrativos</div>
+
+    <header class="site-header">
+      <a class="brand-lockup" href="#inicio" aria-label="Multibrands, início">
+        <span class="brand-symbol" aria-hidden="true">M<span>.</span></span>
+        <span class="brand-wordmark">MULTIBRANDS<small>SÃO JOSÉ DOS CAMPOS</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="Navegação principal">
+        <a href="#catalogo">Vitrine</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#visite">Visite a loja</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-trigger" type="button" aria-label="Ir para busca" data-search-trigger>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        </button>
+        <button class="cart-trigger" type="button" aria-label="Abrir sacola, 0 itens" data-cart-trigger>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 8h15l-1.2 12H5.7L4.5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+          <span class="cart-label">Sacola</span><span class="cart-count" data-cart-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="direction-bar" aria-label="Escolha uma direção visual para a prévia">
+        <div class="direction-bar__intro"><span class="eyebrow">TRÊS DIREÇÕES VISUAIS</span><span>Uma vitrine. Três atmosferas.</span></div>
+        <div class="direction-switch" role="group" aria-label="Direção visual">
+          <button class="direction-button is-active" type="button" data-direction-choice="editorial" aria-pressed="true"><span>01</span> Editorial</button>
+          <button class="direction-button" type="button" data-direction-choice="street" aria-pressed="false"><span>02</span> Street</button>
+          <button class="direction-button" type="button" data-direction-choice="boutique" aria-pressed="false"><span>03</span> Boutique</button>
+        </div>
+      </section>
+
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow" data-hero-eyebrow>CURADORIA MULTIMARCAS · SJC</span>
+          <h1 id="hero-title" data-hero-title>Seu próximo look começa por aqui.</h1>
+          <p data-hero-description>Peças escolhidas entre marcas que você já conhece. Explore com calma e fale com a loja para conferir tamanhos e disponibilidade.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#catalogo"><span data-hero-cta>Explorar a vitrine</span><span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#visite">Conheça a loja <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta"><span>Masculino & feminino</span><span>Shopping Esplanada · Loja 23</span></div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-image" src="assets/piece-01.jpg" alt="Editorial de moda em ambiente urbano; imagem ilustrativa, não representa estoque" fetchpriority="high" />
+          <div class="hero-image-note"><span class="note-mark">MB</span><span><strong>Escolha com intenção.</strong><small>Vitrine demonstrativa · disponibilidade a confirmar</small></span></div>
+          <div class="hero-index" aria-hidden="true">01 / 03</div>
+        </div>
+      </section>
+
+      <section class="brand-strip" id="marcas" aria-label="Marcas observadas no perfil da loja">
+        <span class="brand-strip__label">MARCAS QUE VOCÊ ENCONTRA</span>
+        <span class="brand-name brand-name--lacoste">LACOSTE</span><span class="brand-name brand-name--tommy">TOMMY HILFIGER</span><span class="brand-name brand-name--johnjohn">JOHN JOHN</span><span class="brand-name brand-name--beagle">BEAGLE</span>
+        <span class="brand-strip__note">Seleção e disponibilidade variam.</span>
+      </section>
+
+      <section class="catalog-section" id="catalogo" aria-labelledby="catalog-heading">
+        <div class="catalog-heading-row">
+          <div class="catalog-heading-copy"><span class="eyebrow">A SELEÇÃO MULTIBRANDS</span><h2 id="catalog-heading">Peças para descobrir.</h2><p>Encontre um estilo, escolha o tamanho e confirme os detalhes direto com a equipe.</p></div>
+          <div class="catalog-note"><span class="catalog-note__line"></span><span>Este catálogo é uma demonstração de experiência.<br />Valores e informações não representam o estoque real.</span></div>
+        </div>
+
+        <div class="catalog-toolbar">
+          <label class="search-field"><span class="sr-only">Buscar peça, marca ou categoria</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg><input type="search" placeholder="Buscar peça ou marca" data-search-input /></label>
+          <div class="filter-row" role="group" aria-label="Filtrar por categoria" data-filter-row>
+            <button class="filter-chip is-active" type="button" data-category="Todas" aria-pressed="true">Tudo <span data-category-count="Todas">18</span></button>
+            <button class="filter-chip" type="button" data-category="Feminino" aria-pressed="false">Feminino</button>
+            <button class="filter-chip" type="button" data-category="Masculino" aria-pressed="false">Masculino</button>
+            <button class="filter-chip" type="button" data-category="Calçados" aria-pressed="false">Calçados</button>
+            <button class="filter-chip" type="button" data-category="Acessórios" aria-pressed="false">Acessórios</button>
+          </div>
+          <label class="sort-field"><span class="sr-only">Ordenar catálogo</span><span class="sort-icon" aria-hidden="true">↕</span><select data-sort><option value="featured">Em destaque</option><option value="price-asc">Menor preço demonstrativo</option><option value="price-desc">Maior preço demonstrativo</option><option value="name">Nome A–Z</option></select></label>
+        </div>
+        <div class="active-filter-note" data-results-count aria-live="polite">18 referências demonstrativas</div>
+        <div class="product-grid" data-product-grid></div>
+        <div class="empty-state" data-empty-state hidden><span>⌕</span><h3>Nenhuma peça encontrada.</h3><p>Tente outro termo ou escolha uma categoria diferente.</p><button class="button button--outline" type="button" data-reset-filters>Limpar filtros</button></div>
+      </section>
+
+      <section class="store-story" id="visite" aria-labelledby="store-heading">
+        <div class="store-photo"><img src="assets/piece-02.jpg" alt="Pessoas explorando roupas em uma loja; foto ilustrativa" loading="lazy" /><span class="photo-caption">IMAGEM ILUSTRATIVA</span></div>
+        <div class="store-copy"><span class="eyebrow">PRESENCIAL EM SÃO JOSÉ DOS CAMPOS</span><h2 id="store-heading">Descubra online.<br />Experimente na loja.</h2><p>A vitrine ajuda você a chegar com uma ideia do que procura. A equipe confirma disponibilidade, tamanho e demais detalhes pelo WhatsApp.</p><div class="store-address"><span class="address-icon" aria-hidden="true">⌖</span><span><strong>Multibrands · Shopping Esplanada</strong><small>Av. São João, 644 · Loja 23 · São José dos Campos/SP</small></span></div><div class="store-actions"><a class="button button--dark" href="https://www.google.com/maps/search/?api=1&query=Multibrands%20Av.%20S%C3%A3o%20Jo%C3%A3o%20644%20Shopping%20Esplanada%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos" target="_blank" rel="noreferrer">Ver endereço <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.instagram.com/multibrands_sjc/" target="_blank" rel="noreferrer">Instagram da loja ↗</a></div><p class="store-disclaimer">Endereço observado no perfil público. Horários e disponibilidade devem ser confirmados com a loja.</p></div>
+      </section>
+
+      <section class="help-band" aria-label="Ajuda para consultar a loja"><div><span class="eyebrow">AINDA TEM DÚVIDA?</span><h2>A equipe ajuda você a escolher.</h2></div><a class="button button--light" data-whatsapp-link href="https://wa.me/5512996603251?text=Oi%21%20Vim%20pela%20vitrine%20demonstrativa%20da%20Multibrands." target="_blank" rel="noreferrer">Consultar pelo WhatsApp <span aria-hidden="true">↗</span></a></section>
+    </main>
+
+    <footer class="site-footer"><a class="brand-lockup brand-lockup--footer" href="#inicio"><span class="brand-symbol" aria-hidden="true">M<span>.</span></span><span class="brand-wordmark">MULTIBRANDS<small>SÃO JOSÉ DOS CAMPOS</small></span></a><span class="footer-message">Prévia independente para avaliação · conteúdo demonstrativo</span><a class="footer-instagram" href="https://www.instagram.com/multibrands_sjc/" target="_blank" rel="noreferrer">Instagram ↗</a></footer>
+    <div class="legal-note">Imagens ilustrativas. Produtos, preços, tamanhos, cores e condições são fictícios e servem apenas para demonstrar a navegação. Não representam estoque nem oferta da Multibrands. Confirme todos os detalhes diretamente com a loja.</div>
+
+    <dialog class="product-dialog" data-product-dialog aria-labelledby="product-dialog-title"><button class="dialog-close" type="button" aria-label="Fechar detalhes" data-close-product>×</button><div class="product-dialog__content" data-product-detail></div></dialog>
+    <dialog class="cart-dialog" data-cart-dialog aria-labelledby="cart-heading"><div class="cart-panel"><header class="cart-header"><div><span class="eyebrow">SUA SELEÇÃO</span><h2 id="cart-heading">Sacola <span data-cart-heading-count>(0)</span></h2></div><button class="dialog-close" type="button" aria-label="Fechar sacola" data-close-cart>×</button></header><div class="cart-items" data-cart-items></div><div class="cart-empty" data-cart-empty><span class="empty-bag" aria-hidden="true">◯</span><h3>Sua sacola está esperando.</h3><p>Explore as referências e escolha seu tamanho.</p><button class="button button--outline" type="button" data-close-cart-and-shop>Ver vitrine</button></div><footer class="cart-footer" data-cart-footer hidden><div class="cart-total"><span>Subtotal demonstrativo</span><strong data-cart-total>R$ 0</strong></div><p>Valores e tamanhos deste protótipo são fictícios. A sacola não finaliza uma compra nem reserva produtos.</p><button class="button button--primary checkout-button" type="button" data-whatsapp-checkout>Consultar seleção no WhatsApp <span aria-hidden="true">↗</span></button></footer></div></dialog>
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+    <nav class="mobile-quick-nav" aria-label="Atalhos rápidos"><a href="#catalogo"><span aria-hidden="true">⌕</span>Vitrine</a><button type="button" data-cart-trigger><span aria-hidden="true">▱</span>Sacola <b data-cart-count>0</b></button><a href="https://wa.me/5512996603251?text=Oi%21%20Vim%20pela%20vitrine%20demonstrativa%20da%20Multibrands." target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span>WhatsApp</a></nav>
+  </body>
+</html>
+
+
+
