@@ -26,3 +26,9 @@ Uma vitrine consultável pode permitir que a pessoa explore estilos e reúna per
 - Não há integração com estoque, pagamentos, pedidos ou reservas.
 - Confirmar com a loja: catálogo e fotos reais autorizadas, marcas e produtos atuais, preços, grade de tamanhos, regras de atendimento, endereço, horários e canal de WhatsApp antes de qualquer publicação comercial.
 - Esta prévia não foi enviada à loja.
+
+## Entrega técnica
+- Protótipo publicado no GitHub Pages em https://oluisvi.github.io/multibrands-sjc-conceito/.
+- Prancha responsiva local: arte/multibrands-sjc-prancha.png.
+- Projeto versionado no GitHub: https://github.com/oluisvi/multibrands-sjc-conceito.
+
